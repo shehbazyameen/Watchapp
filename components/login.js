@@ -7,11 +7,15 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export default class Login extends Component {
   
+
+  //developer@wiggledigital.co.za
+  //password : Dev@1234wig
+
   constructor() {
     super();
     this.state = { 
-      email: '', 
-      password: '',
+      email: 'projectsjhb@pranafm.com', 
+      password: 'Fire@PMA#123_!',
       isLoading: false,
       showPassword: false, // add a new state to track whether to show the password or not
       isUsingEmail: true, // add a new state to track whether email or phone is being used
