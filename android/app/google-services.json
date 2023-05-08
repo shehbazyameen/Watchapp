@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "849704232293",
+    "project_id": "chat-app-bc936",
+    "storage_bucket": "chat-app-bc936.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849704232293:android:2c682a16b7dda61a70ad8c",
+        "android_client_info": {
+          "package_name": "com.watchapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849704232293-migr8mjp1vm9f4hlov81m65dp2pus3mb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.watchapp",
+            "certificate_hash": "48cc91205e67deb8650a1466deb75a99c964a05e"
+          }
+        },
+        {
+          "client_id": "849704232293-4dah0dakld5oc8v3nrffpgtlkv4n6egb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpeSX9NNJvj9XTPffpIrq-yu2RROgppmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849704232293-4dah0dakld5oc8v3nrffpgtlkv4n6egb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

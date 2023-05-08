@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Face Watch</string>
+    <string name="ic_launcher_round">@drawable/ic_launcher</string>
+    <string name="ic_launcher_foreground">@drawable/ic_launcher</string>
+</resources>
