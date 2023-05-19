@@ -11,11 +11,14 @@ export default class Login extends Component {
   //developer@wiggledigital.co.za
   //password : Dev@1234wig
 
+  //you try resetting to mailto:coder@wiggledigital.co.za
   constructor() {
     super();
     this.state = { 
-      email: 'projectsjhb@pranafm.com', 
-      password: 'Fire@PMA#123_!',
+      // email: 'forwcj@gmail.com', 
+      // password: 'westlife@517',
+      email: '',
+      password : '',
       isLoading: false,
       showPassword: false, // add a new state to track whether to show the password or not
       isUsingEmail: true, // add a new state to track whether email or phone is being used
@@ -199,6 +202,7 @@ export default class Login extends Component {
         <StatusBar translucent={true} backgroundColor="transparent" />
         <Image style={{ width: 250, height: 200 }} source={require('../Faceapp.png')}/>
         <Text style={styles.SigninText}> Sign In </Text>
+
         <View style={styles.buttonContainer}>
           <TouchableOpacity
             style={[styles.buttonPhone, !isUsingEmail && styles.selectedButton]}
@@ -207,6 +211,7 @@ export default class Login extends Component {
           </TouchableOpacity>
 
           <Text style={styles.orText}> Or </Text>
+
           <TouchableOpacity
             style={[styles.buttonEmail, isUsingEmail && styles.selectedButton]}
             onPress={() => this.setState({ isUsingEmail: true })}>
@@ -361,28 +366,26 @@ const styles = StyleSheet.create({
   buttonContainer: {
     flexDirection: 'row', // set flexDirection to row
     justifyContent: 'center', // align buttons horizontally at center
-    paddingBottom: 60
+    marginBottom:60
   },
 
   buttonPhone: {
+    flex:1,
     backgroundColor: '#5E239D',
     fontSize: 16,
     paddingTop: 10,
-    paddingBottom: 10,
-    textAlign: 'center',
-    paddingRight: 42,
-    paddingLeft: 42,
+    paddingBottom: 10,    
     borderRadius: 60,
+    paddingHorizontal:10,
     marginHorizontal: 5, // add horizontal margin between buttons
   },
 
   buttonEmail: {
-    textAlign: 'center',
+    flex:1,    
     backgroundColor: '#1B1B1B',
+    paddingHorizontal:10,
     paddingTop: 10,
-    paddingBottom: 10,
-    paddingRight: 42,
-    paddingLeft: 42,
+    paddingBottom: 10,    
     borderRadius: 60,
     marginHorizontal: 5, // add horizontal margin between buttons
   },

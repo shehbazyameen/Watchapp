@@ -5,7 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import Login from './components/login';
 import Signup from './components/signup';
-import Dashboard from './components/dashboard';
+import Dashboard from './src/Home';
 import Splash from './components/splash';
 import Getstarted from './components/getstarted';
 

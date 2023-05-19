@@ -95,6 +95,8 @@ android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     namespace "com.watchapp"
+  
+
     defaultConfig {
         missingDimensionStrategy 'react-native-camera', 'general' // <--- insert this line
         applicationId "com.watchapp"
@@ -102,6 +104,10 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+    }
+
+    lintOptions {
+        disable 'ReferenceType'
     }
 
     splits {
