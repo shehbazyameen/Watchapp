@@ -15,7 +15,7 @@ function Profile() {
         {'\n'}{'\n'}{'\n'}Our app is designed to be easy and intuitive, with {'\n'} personalized  messaging options that make it simple to {'\n'} capture  the moment and express yourself.{'\n'} Stay connected  through individual or group {'\n'} conversations,  and keep track of your messages {'\n'} with our status  indicators. Whether you're  {'\n'} sharing a quick snap or having a longer conversation, {'\n'} Face Watch is the perfect app for {'\n'} staying in touch.</Text>
       <Text style={{ color: 'black', fontSize: 20,  color: '#1B1B1B'}}>{'\n'}{'\n'}Support</Text>
       <Text style={{ color: '#1B1B1B'}}>Our friendly team is here to help.</Text>
-      <Text style={{ color: '#5E239D'}}>support@facewatch.co.za</Text>
+      <Text style={{ color: '#5E239D'}}>support@facewatch.mobi</Text>
     </View>
   );
 }
